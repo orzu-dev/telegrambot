@@ -36,7 +36,7 @@ user_votes = {}
 app = Flask(__name__)
 
 # Webhook URL sozlamalari
-WEBHOOK_URL = f"https://my-awesome-bot.onrender.com/{bot_token}"
+WEBHOOK_URL = f"https://telegrambot-1osn.onrender.com/{bot_token}"
 
 # Webhookni o'rnatish
 bot.remove_webhook()
