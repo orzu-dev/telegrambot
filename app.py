@@ -1,4 +1,5 @@
 import os
+import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from flask import Flask, request
 
