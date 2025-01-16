@@ -1,4 +1,3 @@
-import telebot
 import os
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from flask import Flask, request
@@ -202,6 +201,6 @@ def webhook():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render PORT o'zgaruvchisini oladi, agar yo'q bo'lsa, 5000 ni ishlatadi.
+    port = int(os.environ.get("PORT", 8000))  # Render PORT o'zgaruvchisini oladi, agar yo'q bo'lsa, 5000 ni ishlatadi.
     app.run(host="0.0.0.0", port=port)
 
