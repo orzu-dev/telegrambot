@@ -35,15 +35,6 @@ user_votes = {}
 
 # Flask dasturini yaratish
 app = Flask(__name__)
-
-# Webhook URL sozlamalari
-WEBHOOK_URL = f"https://Orzu123.pythonanywhere.com"
-
-
-# Webhookni o'rnatish
-bot.remove_webhook()
-bot.set_webhook(url=WEBHOOK_URL)
-
 # /start komandasi
 
 
